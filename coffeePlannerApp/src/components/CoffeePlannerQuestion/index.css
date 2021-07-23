@@ -1,0 +1,14 @@
+.question-text {
+  font-size: 18px;
+  color: #1e293b;
+}
+.question-options-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  width: 80vw;
+}

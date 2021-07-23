@@ -1,0 +1,60 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.app-heading {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 769px) {
+  .app-heading {
+    font-size: 34px;
+  }
+}
+.show-hide-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 24px;
+  width: 35%;
+  height: 35%;
+}
+.name-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+.button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #dd1264;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 200px;
+  height: 150px;
+  margin: 20px;
+}
+.description {
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+}
+.block {
+  display: none;
+}

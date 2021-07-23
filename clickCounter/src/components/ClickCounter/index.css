@@ -1,0 +1,27 @@
+.counter-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading {
+  font-size: 30px;
+  color: #2d3a35;
+}
+.counter {
+  color: #c20a72;
+}
+.description {
+  color: #2d3a35;
+}
+.button {
+  background-color: #007bff;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}

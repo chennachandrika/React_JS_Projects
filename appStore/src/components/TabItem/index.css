@@ -1,0 +1,26 @@
+.tab-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  list-style-type: none;
+}
+.tab-button {
+  padding: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #7b8794;
+  border-bottom-color: #dfe2e5;
+  border-bottom-width: 2px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.active {
+  color: #2563eb;
+  border-bottom-color: #2563eb;
+  border-bottom-width: 2px;
+}

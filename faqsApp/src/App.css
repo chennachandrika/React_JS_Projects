@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f1f5f8;
+}
+.app-heading {
+  font-size: 34px;
+  color: #cb8805;
+  text-align: center;
+}
+
+.faqs-container {
+  margin: 15vh;
+  width: 75vw;
+  padding: 30px;
+  border-radius: 10px;
+  list-style-type: none;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+}

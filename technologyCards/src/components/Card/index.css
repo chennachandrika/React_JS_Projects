@@ -1,0 +1,40 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+.card-styling {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 340px;
+}
+
+.title {
+  font-size: 20px;
+  color: #171f46;
+}
+.card-description {
+  font-size: 16px;
+  color: #64748b;
+}
+.tech-img {
+  width: 100px;
+  height: 100px;
+  align-self: flex-end;
+}

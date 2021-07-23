@@ -1,0 +1,51 @@
+body {
+  margin: 0px;
+}
+.heading {
+  font-size: 32px;
+  text-align: center;
+}
+.notification-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.notification {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600px;
+  font-family: "Roboto";
+  color: #ffffff;
+  height: 50px;
+  width: 400px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.icon-img {
+  height: 24px;
+  width: 24px;
+}
+.notification-content {
+  padding-left: 10px;
+}
+
+.information-msg {
+  background-color: #0b69ff;
+}
+
+.success-msg {
+  background-color: #2dca73;
+}
+
+.warning-msg {
+  background-color: #ffb800;
+}
+.error-msg {
+  background-color: #ff0b37;
+}

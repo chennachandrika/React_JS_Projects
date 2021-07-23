@@ -1,0 +1,22 @@
+.bg-container {
+  min-height: 100vh;
+  background-color: #0f172a;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title-of-card {
+  color: #f8fafc;
+  text-align: center;
+}
+.ipl-teams {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.image-styling {
+  height: 100px;
+  width: 100px;
+}

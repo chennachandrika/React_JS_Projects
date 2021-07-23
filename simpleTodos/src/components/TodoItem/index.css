@@ -1,0 +1,20 @@
+.todo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo-title {
+  font-size: 15px;
+  color: #000000;
+  padding-right: 10px;
+}
+.todo-del-button {
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ff0b37;
+  color: #ff0b37;
+  background-color: transparent;
+}

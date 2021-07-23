@@ -1,0 +1,21 @@
+.thumbnail-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+.selected-thumbnail {
+  opacity: 1;
+}
+@media screen and (min-width: 768px) {
+  .thumbnail-img {
+    width: 100px;
+    height: 100px;
+  }
+}
+.button {
+  border: none;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+}

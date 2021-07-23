@@ -1,0 +1,31 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 10px;
+}
+.button {
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.dark-mode-styles {
+  color: #ffffff;
+  background-color: #000000;
+}
+.light-mode-styles {
+  color: #000000;
+  background-color: #ffffff;
+}

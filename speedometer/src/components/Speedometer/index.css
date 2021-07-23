@@ -1,0 +1,44 @@
+.speed-meter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  color: #ffffff;
+  height: 100vh;
+}
+
+.heading {
+  font-style: italic;
+}
+.speedometer-img {
+  width: 50%;
+}
+.speed-display {
+  font-size: 18px;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.accelerate-button {
+  background-color: #0b69ff;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+  padding: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+.apply-break-button {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 3px solid #cbd5e1;
+  margin: 10px;
+  padding: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}

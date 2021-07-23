@@ -1,0 +1,49 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffc0bb;
+}
+.feedBack-container {
+  width: 50vw;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+.emojis-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-around;
+  align-items: center;
+}
+.feedBack-heading,
+.response-heading {
+  font-size: 24px;
+  color: #0f172a;
+  text-align: center;
+}
+.emoji,
+.response-feedback {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.emoji-img {
+  width: 100px;
+  height: 100px;
+}
+.emoji-name,
+.feedback-response {
+  font-size: 18px;
+  color: #1e293b;
+}
+.response-image {
+  width: 60px;
+  height: 50px;
+}

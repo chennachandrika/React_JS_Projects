@@ -1,0 +1,36 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 20px;
+}
+.selected-image {
+  width: 100%;
+  border-radius: 10px;
+}
+.main-heading {
+  color: #1e293b;
+  font-size: 24px;
+}
+.sub-heading {
+  color: #64748b;
+  font-size: 18px;
+}
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 30px;
+  }
+  .sub-heading {
+    font-size: 20px;
+  }
+}
+.thumbnail-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: space-around;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}

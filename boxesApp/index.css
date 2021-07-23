@@ -1,0 +1,47 @@
+@media screen and (min-width: 769px) {
+  .boxes-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  .boxes-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+}
+.heading {
+  text-align: center;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.small-box {
+  width: 150px;
+  height: 150px;
+  background-color: #ec4899;
+}
+.medium-box {
+  width: 350px;
+  height: 350px;
+  background-color: #38bdf8;
+}
+.large-box {
+  width: 500px;
+  height: 500px;
+  background-color: #fbbf24;
+}
+.description {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "roboto";
+}
