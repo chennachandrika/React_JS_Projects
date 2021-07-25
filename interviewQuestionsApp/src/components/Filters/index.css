@@ -1,0 +1,21 @@
+.filter-bars-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+@media screen and (min-width: 768px) {
+  .filter-bars-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+.selector {
+  outline: none;
+  cursor: pointer;
+  margin: 10px;
+  width: 150px;
+}

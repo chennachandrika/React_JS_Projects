@@ -1,0 +1,46 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.app-banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(to right, #180d5b, #2b237c);
+  font-family: 'Playfair Display';
+}
+
+.app-banner-heading {
+  font-size: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .app-banner-container {
+    flex-direction: row;
+    height: 40vh;
+  }
+  .app-banner-heading {
+    font-size: 30px;
+  }
+}
+.app-banner-img {
+  width: 300px;
+}
+.app-data-container {
+  margin: 10px;
+  width: 80vw;
+}
+.interview-questions-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  list-style-type: none;
+}

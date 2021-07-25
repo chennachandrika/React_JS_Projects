@@ -1,0 +1,24 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .app-form-container {
+    flex-direction: row-reverse;
+  }
+}
+.comments-img {
+  width: 200px;
+  order: 1;
+}
+.para {
+}
