@@ -25,5 +25,66 @@
 .light-blue {
   background-color: #0ea5e9;
 }
+.comment-item {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
 
-/* Write your CSS here */
+.comment-item-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.initial-profile {
+  padding: 10px 15px;
+  border-radius: 100%;
+  color: white;
+  margin: 0px;
+  margin-right: 10px;
+}
+.commentator-name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.commentator-name {
+  font-size: 20px;
+  margin-right: 20px;
+}
+.comment-posted-time {
+  margin: 0;
+}
+.delete-img,
+.like-img {
+  width: 30px;
+  margin-right: 10px;
+}
+.horizontal-line {
+  border: 1px solid lightgrey;
+  width: 100%;
+}
+.button {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: grey;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+.comment-item-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.liked-text {
+  color: #0ea5e9;
+}
