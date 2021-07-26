@@ -1,1 +1,18 @@
-/* Write your CSS here */
+.appointment-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 20vw;
+  margin: 10px;
+}
+.appointment-item-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}

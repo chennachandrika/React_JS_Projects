@@ -1,1 +1,65 @@
-/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+}
+.appointments {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 80vw;
+  margin: 20px 20px;
+}
+.appointment-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+}
+.appointments-img {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .appointment-form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .appointments-img {
+    display: flex;
+    width: 300px;
+  }
+}
+.horizontal-line {
+  border: 1px solid lightgrey;
+  width: 100%;
+}
+.appointments-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-top: 10px;
+}
+.appointments-list-container-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-field {
+  margin-bottom: 10px;
+}
+.button {
+  outline: none;
+}
