@@ -1,0 +1,21 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  background-color:  #ffffff33
+  margin: 10px;
+}
+.navbar-containers {
+  display: flex;
+  flex-direction: row;
+}
+.emoji-game-logo {
+  width: 20px;
+  margin-left: 10px;
+}
+.emoji-game-navbar-heading {
+  font-size: 20px;
+  color: #ffffff;
+}
