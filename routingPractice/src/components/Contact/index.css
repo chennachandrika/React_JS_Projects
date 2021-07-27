@@ -1,1 +1,14 @@
-/* Write your CSS code here */
+.notFound-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.notFound-heading {
+  font-size: 25px;
+  color: #12022f;
+  text-align: center;
+}
+.notFound-blog-img {
+  width: 250px;
+}

@@ -1,1 +1,14 @@
-/* Write your CSS code here */
+.block-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-heading {
+  font-size: 25px;
+  color: #12022f;
+  text-align: center;
+}
+.home-blog-img {
+  width: 250px;
+}

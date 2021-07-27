@@ -13,19 +13,29 @@ body {
 
 .app-container {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-start;
-  border: 3px solid #551e53;
-  border-radius: 10px;
-  margin: 20px;
-  height: 90vh;
+  height: 100vh;
 }
 
-.app-content {
+.app-card {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 80%;
+  height: 80vh;
+  border: 4px solid #551e53;
+  border-radius: 12px;
+}
+
+@media (max-width: 576px) {
+  .app-card {
+    width: 85%;
+  }
+}
+
+.app-body {
+  display: flex;
   justify-content: center;
-  height: 100%;
+  align-items: center;
+  flex-grow: 1;
 }
