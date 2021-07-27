@@ -1,1 +1,49 @@
-/* Write your code here. */
+.win-or-lose-img {
+  width: 150px;
+}
+.win-or-lose-display-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff33;
+  border: 1px solid #ffffff30;
+  border-radius: 10px;
+  padding: 35px;
+}
+@media screen and (min-width: 768px) {
+  .win-or-lose-img {
+    width: 250px;
+  }
+}
+.score-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-status,
+.score-heading {
+  color: #ffffff;
+  margin: 0;
+  padding: 5px;
+  font-weight: bold;
+}
+.score {
+  color: blue;
+  margin: 0;
+  padding: 5px;
+  font-weight: bold;
+}
+.play-again-button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ffce27;
+  color: #3d3d3d;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 10px;
+}
