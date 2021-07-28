@@ -16,13 +16,36 @@ class BlogItemDetails extends Component {
       `https://apis.ccbp.in/blogs/${id}`,
     )
     const blogItemDetailsResponse = await promiseForGettingBlogItemDetails.json()
+    const blogItemDetailsResponseFormatting = {
+      id: blogItemDetailsResponse.id,
+      title: blogItemDetailsResponse.title,
+      imgUrl: blogItemDetailsResponse.img_url,
+      avatarUrl: blogItemDetailsResponse.avatar_url,
+      author: blogItemDetailsResponse.author,
+      content: blogItemDetailsResponse.content,
+      topic: blogItemDetailsResponse.topic,
+    }
 
-    this.setState({blogItemDetails: blogItemDetailsResponse, isLoading: false})
+    this.setState({
+      blogItemDetails: blogItemDetailsResponseFormatting,
+      isLoading: false,
+    })
   }
 
   render() {
     const {isLoading, blogItemDetails} = this.state
-    return <p>Hi</p>
+    const {title, imgUrl, content, avatarUrl, author} = blogItemDetails
+    return (
+      <div className="blog-details-container">
+        <h1>{title}</h1>
+        <div className="blog-item-author">
+          <img className="author-img" src={avatarUrl} alt={author} />
+          <p>{author}</p>
+        </div>
+        <img className="blog-topic-img" src={imgUrl} alt={title} />
+        <p>{content}</p>
+      </div>
+    )
   }
 }
 

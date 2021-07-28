@@ -1,1 +1,21 @@
-/* Write your CSS code here */
+.blog-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.blog-item-author {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.author-img {
+  width: 20px;
+  border-radius: 100px;
+}
+.blog-topic-img {
+  width: 200px;
+}
