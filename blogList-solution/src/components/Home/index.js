@@ -1,6 +1,6 @@
-import './index.css'
 import BlogList from '../BlogList'
 import UserInfo from '../UserInfo'
+import './index.css'
 
 const blogsData = [
   {
