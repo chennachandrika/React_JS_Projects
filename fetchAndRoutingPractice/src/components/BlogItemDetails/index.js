@@ -1,4 +1,7 @@
 import {Component} from 'react'
+import Loader from 'react-loader-spinner'
+
+import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css'
 import './index.css'
 
 class BlogItemDetails extends Component {
@@ -19,7 +22,7 @@ class BlogItemDetails extends Component {
     const blogItemDetailsResponseFormatting = {
       id: blogItemDetailsResponse.id,
       title: blogItemDetailsResponse.title,
-      imgUrl: blogItemDetailsResponse.img_url,
+      imgUrl: blogItemDetailsResponse.image_url,
       avatarUrl: blogItemDetailsResponse.avatar_url,
       author: blogItemDetailsResponse.author,
       content: blogItemDetailsResponse.content,
@@ -35,16 +38,23 @@ class BlogItemDetails extends Component {
   render() {
     const {isLoading, blogItemDetails} = this.state
     const {title, imgUrl, content, avatarUrl, author} = blogItemDetails
+    console.log(imgUrl)
     return (
-      <div className="blog-details-container">
-        <h1>{title}</h1>
-        <div className="blog-item-author">
-          <img className="author-img" src={avatarUrl} alt={author} />
-          <p>{author}</p>
-        </div>
-        <img className="blog-topic-img" src={imgUrl} alt={title} />
-        <p>{content}</p>
-      </div>
+      <>
+        {isLoading ? (
+          <Loader />
+        ) : (
+          <div className="blog-details-container">
+            <h1>{title}</h1>
+            <div className="blog-item-author">
+              <img className="author-img" src={avatarUrl} alt={author} />
+              <p>{author}</p>
+            </div>
+            <img className="blog-topic-img" src={imgUrl} alt={title} />
+            <p>{content}</p>
+          </div>
+        )}
+      </>
     )
   }
 }

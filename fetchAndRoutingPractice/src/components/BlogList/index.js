@@ -12,7 +12,6 @@ class BlogList extends Component {
 
   fetchBlogList = async () => {
     const promiseForBlogList = await fetch('https://apis.ccbp.in/blogs')
-    const statusCode = await promiseForBlogList.statusCode
     const blogListResponse = await promiseForBlogList.json()
     const blogListResponseFormatting = blogListResponse.map(eachBlog => ({
       id: eachBlog.id,

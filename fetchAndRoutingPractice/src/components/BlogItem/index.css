@@ -1,11 +1,13 @@
 .blog-item-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   margin: 10px;
   border-radius: 10px;
   border: 1px solid lightgrey;
+  width: 70vw;
+  color: #000000;
 }
 @media screen and (min-width: 768px) {
   .blog-item-container {
@@ -16,7 +18,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .blog-item-author {
@@ -30,5 +32,6 @@
   border-radius: 100px;
 }
 .blog-topic-img {
-  width: 200px;
+  height: 200px;
+  margin: 10px;
 }
