@@ -1,0 +1,50 @@
+.team-matches-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  min-height: 100vh;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+}
+.team-banner {
+  width: 100%;
+}
+.latest-matches-heading {
+  align-self: flex-start;
+}
+h1 {
+  font-size: 20px;
+}
+p {
+  font-size: 18px;
+  margin: 0;
+}
+.recent-match-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+
+  list-style-type: none;
+  padding: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-matches-details-container {
+    padding: 50px 100px;
+  }
+  .recent-match-details {
+    justify-content: space-between;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
