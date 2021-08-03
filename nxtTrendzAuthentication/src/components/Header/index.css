@@ -1,1 +1,59 @@
-/* Write your CSS code here */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+.site-logo {
+  width: 150px;
+}
+.link {
+  text-decoration: none;
+  color: #000000;
+  margin: 10px;
+}
+.button {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-weight: bold;
+}
+.links-to-other {
+  display: none;
+  list-style-type: none;
+}
+.sm-logout-button {
+  text-decoration: none;
+  color: #000000;
+}
+.nav-logout {
+  width: 40px;
+}
+.sm-nav-bar {
+  background-color: #e6f6ff;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .sm-nav-bar,
+  .sm-logout-button {
+    display: none;
+  }
+  .links-to-other {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,1 +1,62 @@
-/* Write your CSS code here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.app-content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  padding: 10px;
+}
+.shop-button {
+  padding: 10px;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.sm-clothes {
+  width: 300px;
+}
+.clothes {
+  display: none;
+}
+h1,
+p {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    align-items: flex-start;
+    width: 40vw;
+  }
+  h1,
+  p {
+    text-align: left;
+  }
+  .clothes {
+    width: 400px;
+    display: block;
+  }
+
+  .sm-clothes {
+    display: none;
+  }
+}
