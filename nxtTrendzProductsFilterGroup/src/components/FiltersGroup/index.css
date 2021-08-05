@@ -1,7 +1,23 @@
 .filters-group-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   margin-top: 16px;
 }
 
+.category-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 0;
+}
+
+.rating-img {
+  width: 100px;
+}
 @media screen and (min-width: 768px) {
   .filters-group-container {
     width: 30%;

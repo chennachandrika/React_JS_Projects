@@ -48,3 +48,15 @@
   flex-wrap: wrap;
   padding-left: 0;
 }
+.no-products-img {
+  width: 150px;
+}
+.no-product-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
